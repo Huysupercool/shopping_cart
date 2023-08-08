@@ -1,0 +1,581 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\shopping_cart.bundle.scp.css",
+      "PackagePath": "staticwebassets\\shopping_cart.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\css\\animate.css",
+      "PackagePath": "staticwebassets\\assets\\css\\animate.css"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\assets\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\css\\main.css",
+      "PackagePath": "staticwebassets\\assets\\css\\main.css"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\css\\prettyPhoto.css",
+      "PackagePath": "staticwebassets\\assets\\css\\prettyPhoto.css"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\css\\price-range.css",
+      "PackagePath": "staticwebassets\\assets\\css\\price-range.css"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\assets\\css\\responsive.css"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\assets\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\assets\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\404\\404.png",
+      "PackagePath": "staticwebassets\\assets\\images\\404\\404.png"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\blog\\blog-one.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog-one.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\blog\\blog-three.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog-three.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\blog\\blog-two.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\blog-two.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\blog\\man-four.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\man-four.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\blog\\man-one.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\man-one.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\blog\\man-three.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\man-three.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\blog\\man-two.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\man-two.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\blog\\socials.png",
+      "PackagePath": "staticwebassets\\assets\\images\\blog\\socials.png"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\cart\\one.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cart\\one.png"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\cart\\three.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cart\\three.png"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\cart\\two.png",
+      "PackagePath": "staticwebassets\\assets\\images\\cart\\two.png"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\home\\bg_border.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\bg_border.png"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\home\\gallery1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\gallery1.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\home\\gallery2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\gallery2.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\home\\gallery3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\gallery3.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\home\\gallery4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\gallery4.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\home\\girl1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\girl1.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\home\\girl2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\girl2.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\home\\girl3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\girl3.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\home\\iframe1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\iframe1.png"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\home\\iframe2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\iframe2.png"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\home\\iframe3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\iframe3.png"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\home\\iframe4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\iframe4.png"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\home\\logo.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\logo.png"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\home\\map.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\map.png"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\home\\new.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\new.png"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\home\\partner1.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\partner1.png"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\home\\partner2.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\partner2.png"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\home\\partner3.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\partner3.png"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\home\\partner4.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\partner4.png"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\home\\pricing.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\pricing.png"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\home\\product1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\product1.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\home\\product2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\product2.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\home\\product3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\product3.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\home\\product4.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\product4.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\home\\product5.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\product5.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\home\\product6.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\product6.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\home\\recommend1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\recommend1.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\home\\recommend2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\recommend2.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\home\\recommend3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\recommend3.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\home\\sale.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\sale.png"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\home\\searchicon.png",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\searchicon.png"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\home\\shipping.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\home\\shipping.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\product-details\\1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product-details\\1.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\product-details\\new.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product-details\\new.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\product-details\\rating.png",
+      "PackagePath": "staticwebassets\\assets\\images\\product-details\\rating.png"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\product-details\\share.png",
+      "PackagePath": "staticwebassets\\assets\\images\\product-details\\share.png"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\product-details\\similar1.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product-details\\similar1.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\product-details\\similar2.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product-details\\similar2.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\product-details\\similar3.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\product-details\\similar3.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\shop\\advertisement.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\advertisement.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\shop\\product10.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\product10.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\shop\\product11.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\product11.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\shop\\product12.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\product12.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\shop\\product7.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\product7.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\shop\\product8.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\product8.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\images\\shop\\product9.jpg",
+      "PackagePath": "staticwebassets\\assets\\images\\shop\\product9.jpg"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\js\\contact.js",
+      "PackagePath": "staticwebassets\\assets\\js\\contact.js"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\js\\gmaps.js",
+      "PackagePath": "staticwebassets\\assets\\js\\gmaps.js"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\js\\html5shiv.js",
+      "PackagePath": "staticwebassets\\assets\\js\\html5shiv.js"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.js"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\js\\jquery.prettyPhoto.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.prettyPhoto.js"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\js\\jquery.scrollUp.min.js",
+      "PackagePath": "staticwebassets\\assets\\js\\jquery.scrollUp.min.js"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\js\\main.js",
+      "PackagePath": "staticwebassets\\assets\\js\\main.js"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\assets\\js\\price-range.js",
+      "PackagePath": "staticwebassets\\assets\\js\\price-range.js"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\Project Tổng\\shopping_cart\\shopping_cart\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.shopping_cart.props",
+      "PackagePath": "build\\shopping_cart.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.shopping_cart.props",
+      "PackagePath": "buildMultiTargeting\\shopping_cart.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.shopping_cart.props",
+      "PackagePath": "buildTransitive\\shopping_cart.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.shopping_cart.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
