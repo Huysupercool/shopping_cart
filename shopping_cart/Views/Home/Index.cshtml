@@ -92,8 +92,11 @@
 											<a href="Product/Detail/@p.Id" class="btn btn-default add-to-cart">
 												<i class="fas fa-search"></i> Detail
 											</a>
-											<a href="#" class="btn btn-default add-to-cart"><i class="fa fa-shopping-cart"></i>Add to cart</a>
-										</div>
+											<a  class="btn btn-default add-to-cart" asp-route="addcart" asp-route-productid="@p.Id">
+												<i class="fa fa-shopping-cart"></i>
+												Add to cart
+											</a>
+										</div> 
 									</div>
 								</div>
 <!--WishList and Compare-->	@*<div class="choose">
