@@ -31,7 +31,7 @@
                 <td>@(id++)</td>
                 <td>@cartItem.Product.Name</td>
                 <td>@price$</td>
-               @*<td><input asp-for="@cartItem.Quantity" id="@($"quantity-{cartItem.Product.Id}")" /></td>*@
+                <td><input asp-for="@cartItem.Quantity" id="@($"quantity-{cartItem.Product.Id}")" /></td>
                 <td>@money$</td>
                 <td>
                     <a data-productid="@cartItem.Product.Id" class="btn btn-success updatecartItem"
@@ -48,7 +48,7 @@
     </table>
 
     //AJAX Button
-   // <a asp-route="checkout" asp-route-id="@UserManager.GetUserId(User)" asp-route-total="@total" class="btn btn-success">Thanh toán</a>
+    <a asp-route="checkout" asp-route-id="@UserManager.GetUserId(User)" asp-route-total="@total" class="btn btn-success">Thanh toán</a>
     <a asp-controller="Home" asp-action="Index" class="btn btn-info">Tiếp tục mua hàng</a>
     @section Scripts {
     <script>

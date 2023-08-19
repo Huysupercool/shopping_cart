@@ -19,6 +19,7 @@ namespace shopping_cart.Controllers
         public IActionResult Index()
         {
 			//List<Category> cateList = _dbContext.Categories.ToList();
+			ViewBag.ListCat = _dbContext.Categories.ToList();
 			List<Product> proList = _dbContext.Products.ToList();
             return View(proList);
         }

@@ -7,6 +7,7 @@ using System.Text.Encodings.Web;
 using System.Text;
 using shopping_cart.Data;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using System;
 
 namespace shopping_cart.Controllers
 {
@@ -16,11 +17,15 @@ namespace shopping_cart.Controllers
         private readonly UserManager<AppUser> _userManager;
         private readonly SignInManager<AppUser> _signInManager;
         private readonly IUserStore<AppUser> _userStore;
-        public UserController(UserManager<AppUser> userManager, SignInManager<AppUser> signInManager, AppDbContext context, IUserStore<AppUser> userStore)
+        private readonly ILogger<AppUser> _logger;
+        private readonly IEmailSender _sender;
+        public UserController(IEmailSender sender, ILogger<AppUser> logger, IUserStore<AppUser> userStore, UserManager<AppUser> userManager, AppDbContext context, SignInManager<AppUser> signInManager)
         {
+            _sender = sender;
+            _logger = logger;
+            _signInManager = signInManager;
             _dbContext = context;
             _userManager = userManager;
-            _signInManager = signInManager;
             _userStore = userStore;
         }
         public IActionResult Index()
@@ -36,21 +41,20 @@ namespace shopping_cart.Controllers
         public async Task<IActionResult> Register(RegisterViewModel userModel)
         {
             string returnUrl = Url.Content("~/");
-            // ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
-            if (ModelState.IsValid)
+          if (ModelState.IsValid)
             {
                 var user = CreateUser();
                 user.Email = userModel.Email;
+                user.Phone = userModel.Phone;
                 user.FirstName = userModel.FirstName;
                 user.LastName = userModel.LastName;
+                user.Address = userModel.Address;
+                user.Age = userModel.Age;
                 await _userStore.SetUserNameAsync(user, userModel.Email, CancellationToken.None);
-                //  await _emailStore.SetEmailAsync(user, userModel.Email, CancellationToken.None);
                 var result = await _userManager.CreateAsync(user, userModel.Password);
 
                 if (result.Succeeded)
                 {
-                    //  _logger.LogInformation("User created a new account with password.");
-
                     var userId = await _userManager.GetUserIdAsync(user);
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
                     code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
@@ -59,9 +63,6 @@ namespace shopping_cart.Controllers
                         pageHandler: null,
                         values: new { area = "Identity", userId = userId, code = code, returnUrl = "" },
                         protocol: Request.Scheme);
-
-                    //  await _emailSender.SendEmailAsync(Input.Email, "Confirm your email",
-                    //      $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
                     ViewBag.EmailConfirmationUrl = callbackUrl;
                     ViewBag.DisplayConfirmAccountLink = true;
                     if (_userManager.Options.SignIn.RequireConfirmedAccount)
@@ -81,59 +82,7 @@ namespace shopping_cart.Controllers
             }
             return View();
         }
-
-        public IActionResult Login()
-        {
-
-            return View();
-        }
-        [HttpPost]
-        public async Task<IActionResult> Login(loginViewModel userModel)
-        {
-            string returnUrl = Url.Content("~/Home/Index");
-
-            // ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
-
-            if (ModelState.IsValid)
-            {
-                // This doesn't count login failures towards account lockout
-                // To enable password failures to trigger account lockout, set lockoutOnFailure: true
-                var result = await _signInManager.PasswordSignInAsync(userModel.Email, userModel.Password, false, lockoutOnFailure: false);
-                if (result.Succeeded)
-                {
-                    // _logger.LogInformation("User logged in.");
-                    return LocalRedirect(returnUrl);
-                }
-                //if (result.RequiresTwoFactor)
-                //{
-                //    return RedirectToPage("./LoginWith2fa", new { ReturnUrl = returnUrl, RememberMe = Input.RememberMe });
-                //}
-                //if (result.IsLockedOut)
-                //{
-                //    _logger.LogWarning("User account locked out.");
-                //    return RedirectToPage("./Lockout");
-                //}
-                //else
-                //{
-                //    ModelState.AddModelError(string.Empty, "Invalid login attempt.");
-                //    return Page();
-                //}
-            }
-
-            // If we got this far, something failed, redisplay form
-            return View();
-        }
-
-        public async Task<IActionResult> Logout(string returnUrl = null) {
-            await _signInManager.SignOutAsync();
-            if (returnUrl != null)
-            {
-                return LocalRedirect(returnUrl);
-            }
-            return LocalRedirect("Home/Index");
-        }
-
-    private AppUser CreateUser()
+        private AppUser CreateUser()
         {
             try
             {
@@ -147,13 +96,34 @@ namespace shopping_cart.Controllers
             }
         }
 
-        //private IUserEmailStore<IdentityUser> GetEmailStore()
-        //{
-        //    if (!_userManager.SupportsUserEmail)
-        //    {
-        //        throw new NotSupportedException("The default UI requires a user store with email support.");
-        //    }
-        //    return (IUserEmailStore<IdentityUser>)_userStore;
-        //}
+        public IActionResult Login()
+        {
+
+            return View();
+        }
+        [HttpPost]
+        public async Task<IActionResult> Login(loginViewModel userModel)
+        {
+            string returnUrl = Url.Content("~/Home/Index");
+
+            if (ModelState.IsValid)
+            {
+                var result = await _signInManager.PasswordSignInAsync(userModel.Email, userModel.Password, false, lockoutOnFailure: false);
+                if (result.Succeeded)
+                {
+                    return LocalRedirect(returnUrl);
+                }
+            }
+            return View();
+        }
+
+        public async Task<IActionResult> Logout(string returnUrl = null) {
+            await _signInManager.SignOutAsync();
+            if (returnUrl != null)
+            {
+                return LocalRedirect(returnUrl);
+            }
+            return LocalRedirect("Home/Index");
+        }
     }
 }

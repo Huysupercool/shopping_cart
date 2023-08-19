@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using shopping_cart.Data;
+using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 var connectionString = builder.Configuration.GetConnectionString("shopping_cartContextConnection")
@@ -16,7 +17,7 @@ builder.Services.AddDefaultIdentity<AppUser>(options => options.SignIn.RequireCo
   .AddEntityFrameworkStores<AppDbContext>();
 
 // Add services to the container.
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 //Session
 builder.Services.AddDistributedMemoryCache();
